@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [BDD Test Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="ExtendReport.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="1" name="SFDC Testing (failed)" parallel="tests">
+    <classes>
+      <class name="MyRunner.TestRunner">
+        <methods>
+          <include name="feature" invocation-numbers="1"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- MyRunner.TestRunner -->
+    </classes>
+  </test> <!-- SFDC Testing (failed) -->
+</suite> <!-- Failed suite [BDD Test Suite] -->

@@ -1,0 +1,340 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "SFDC Login Test Scenario",
+        "description": "",
+        "id": "sfdc-login-feature;sfdc-login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15162490453,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "LoginStepDefinition.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 50144000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is_free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 352008533,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters username and password",
+            "match": {
+              "location": "LoginStepDefinition.user_enters_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 34523510613,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11200000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on home page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_hopme_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14088649387,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user moves to new Accounts page",
+            "match": {
+              "location": "LoginStepDefinition.user_moves_to_new_accounts_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4351397973,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters Account details",
+            "match": {
+              "location": "LoginStepDefinition.user_enters_contacts_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 852436906,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "SFDC Login Feature",
+    "description": "",
+    "id": "sfdc-login-feature",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "SFDC Login Test Scenario 1",
+        "description": "",
+        "id": "sfdc-login-feature-new;sfdc-login-test-scenario-1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13047479040,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on Login Page news",
+            "match": {
+              "location": "LoginStepDefinition1.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 38475520,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page is Free CRM news",
+            "match": {
+              "location": "LoginStepDefinition1.title_of_login_page_is_free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 368786774,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters username and password news",
+            "match": {
+              "location": "LoginStepDefinition1.user_enters_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6733325653,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on login button news",
+            "match": {
+              "location": "LoginStepDefinition1.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19344765867,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on home page news",
+            "match": {
+              "location": "LoginStepDefinition1.user_is_on_hopme_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17016353706,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user moves to new Accounts page news",
+            "match": {
+              "location": "LoginStepDefinition1.user_moves_to_new_accounts_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5103005440,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters Account details news",
+            "match": {
+              "location": "LoginStepDefinition1.user_enters_contacts_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 869314133,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Close the browser news",
+            "match": {
+              "location": "LoginStepDefinition1.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "SFDC Login Test Scenario 2",
+        "description": "",
+        "id": "sfdc-login-feature-new;sfdc-login-test-scenario-2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16832275200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is already on Login Page new",
+            "match": {
+              "location": "LoginStepDefinition2.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9822293,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "title of login page is Free CRM new",
+            "match": {
+              "location": "LoginStepDefinition2.title_of_login_page_is_free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 323977386,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters username and password new",
+            "match": {
+              "location": "LoginStepDefinition2.user_enters_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4145992533,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user clicks on login button new",
+            "match": {
+              "location": "LoginStepDefinition2.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35562655574,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user is on home page new",
+            "match": {
+              "location": "LoginStepDefinition2.user_is_on_hopme_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10446017707,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user moves to new Accounts page new",
+            "match": {
+              "location": "LoginStepDefinition2.user_moves_to_new_accounts_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3091966720,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user enters Account details new",
+            "match": {
+              "location": "LoginStepDefinition2.user_enters_contacts_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 838021973,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Close the browser new",
+            "match": {
+              "location": "LoginStepDefinition2.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "SFDC Login Feature new",
+    "description": "",
+    "id": "sfdc-login-feature-new",
+    "keyword": "Feature",
+    "uri": "login2.feature"
+  }
+]
